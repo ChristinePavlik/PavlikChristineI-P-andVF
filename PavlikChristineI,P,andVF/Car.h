@@ -12,9 +12,10 @@ class Car : public Vehicle
 {
 private:
 	int doors;
-public:
+public:	 
+	Car();
 	void setDoors(int);
 	int getDoors() const;
-	void displayInfo() const;
+	void displayInfo();
 };
 #endif

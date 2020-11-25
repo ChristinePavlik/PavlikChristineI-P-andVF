@@ -7,8 +7,10 @@ November 29, 2020
 #include <iostream>
 #include <string>
 using namespace std;
-/*Vehicle::Vehicle() {
-}*/
+Vehicle::Vehicle() {
+	yearBuilt = 0;
+	manufacturer = "";
+}
 void Vehicle::setManufacturer(string man){
 	manufacturer = man;
 }
@@ -21,6 +23,6 @@ void Vehicle::setYearBuilt(int year) {
 int Vehicle::getYearBuilt() const{
 	return yearBuilt;
 }
-void Vehicle::displayInfo() const{
+void Vehicle::displayInfo() {
 	cout << "Vehicle information:\n" << "\nManufacturer: " << manufacturer << "\nYear Built: " << yearBuilt;
 }

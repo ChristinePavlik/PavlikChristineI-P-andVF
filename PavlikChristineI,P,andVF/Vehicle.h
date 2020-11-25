@@ -12,11 +12,12 @@ private:
 	string manufacturer;
 	int yearBuilt;
 public:
+	Vehicle();
 	void setManufacturer(string);
 	void setYearBuilt(int);
 	string getManufacturer() const;
 	int getYearBuilt() const;
-	void displayInfo() const;
+	void displayInfo();
 };
 #endif
 
