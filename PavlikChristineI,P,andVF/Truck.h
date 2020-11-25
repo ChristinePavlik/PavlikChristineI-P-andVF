@@ -12,7 +12,9 @@ class Truck : public Vehicle {
 private:
 	int towing;
 public:
-	Truck();
+	Truck() : Vehicle() {
+		towing = 0;
+	}
 	void setTowing(int);
 	int getTowing() const;
 	void displayInfo();

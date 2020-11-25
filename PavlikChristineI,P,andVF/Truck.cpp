@@ -7,15 +7,13 @@ November 29, 2020
 #include <iostream>
 #include <string>
 using namespace std;
-Truck::Truck() : Vehicle() {
-	towing = 0;
-}
 void Truck::setTowing(int toowing) {
 	towing = toowing;
 }
 int Truck::getTowing() const {
 	return towing;
 }
-void Truck::displayInfo() override {
-	cout << Vehicle::displayInfo() << "\nTowing Capability: " << towing;
+void Truck::displayInfo() {
+	Vehicle::displayInfo();
+	cout << "\nTowing Capability: " << towing;
 }

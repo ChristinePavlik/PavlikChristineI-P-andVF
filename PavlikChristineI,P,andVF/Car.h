@@ -13,7 +13,9 @@ class Car : public Vehicle
 private:
 	int doors;
 public:	 
-	Car();
+	Car() : Vehicle() {
+		doors = 0;
+	}
 	void setDoors(int);
 	int getDoors() const;
 	void displayInfo();

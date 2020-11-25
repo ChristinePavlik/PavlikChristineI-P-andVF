@@ -7,10 +7,6 @@ November 29, 2020
 #include <iostream>
 #include <string>
 using namespace std;
-Vehicle::Vehicle() {
-	yearBuilt = 0;
-	manufacturer = "";
-}
 void Vehicle::setManufacturer(string man){
 	manufacturer = man;
 }
