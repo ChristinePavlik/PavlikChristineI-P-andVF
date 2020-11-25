@@ -7,6 +7,8 @@ November 29, 2020
 #include <iostream>
 #include <string>
 using namespace std;
+
+//Vehicle member functions setters, getters, and display info
 void Vehicle::setManufacturer(string man){
 	manufacturer = man;
 }
@@ -20,5 +22,5 @@ int Vehicle::getYearBuilt() const{
 	return yearBuilt;
 }
 void Vehicle::displayInfo() {
-	cout << "Vehicle information:\n" << "\nManufacturer: " << manufacturer << "\nYear Built: " << yearBuilt;
+	cout << "Vehicle Information:" << "\nManufacturer: " << manufacturer << "\nYear Built: " << yearBuilt;
 }

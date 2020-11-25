@@ -8,6 +8,7 @@ November 29, 2020
 #include <string>
 #include "Vehicle.h"
 using namespace std;
+//class truck
 class Truck : public Vehicle {
 private:
 	int towing;

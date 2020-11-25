@@ -7,6 +7,8 @@ November 29, 2020
 #include <iostream>
 #include <string>
 using namespace std;
+
+//car member functions setter, getter, and display info
 void Car::setDoors(int dooors) {
 	doors = dooors;
 }

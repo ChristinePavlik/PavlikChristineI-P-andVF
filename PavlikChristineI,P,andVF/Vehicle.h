@@ -7,6 +7,7 @@ November 29, 2020
 #define VEHICLE_H
 #include <string>
 using namespace std;
+//class vehicle
 class Vehicle {
 private:
 	string manufacturer;

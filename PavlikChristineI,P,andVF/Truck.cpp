@@ -7,6 +7,7 @@ November 29, 2020
 #include <iostream>
 #include <string>
 using namespace std;
+//truck member functions setter, getter, and display info
 void Truck::setTowing(int toowing) {
 	towing = toowing;
 }
