@@ -1,3 +1,8 @@
+/*
+Christine Pavlik
+CIS 1202 501
+November 29, 2020
+*/
 #include <iostream>
 #include <string>
 #include "Vehicle.h"
